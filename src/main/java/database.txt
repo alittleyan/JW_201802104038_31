@@ -6,3 +6,13 @@ create table user(
     primary key (id,username),
     foreign key(teacher_id) references teacher(id)
     );
+
+网址：https://github.com/
+https://mvnrepository.com/
+
+build.gradle中
+
+repositories {
+                 maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+             }
+
